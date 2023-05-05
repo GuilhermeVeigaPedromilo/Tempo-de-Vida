@@ -14,9 +14,12 @@
 
             console.log(ano);
 
-            if (idade < 12) {
+            if (idade <= -0.1) {
                 resultado = document.getElementById("resultado");
-                resultado.innerHTML = "<br>" + nome + " sua idade é " + idade + "<br/> Você está na fase Criança";
+                resultado.innerHTML = "<br>" + nome + "<br/> Insira uma idade válida";
+            } else if (idade >= 1 && idade <= 12) {
+                resultado = document.getElementById("resultado");
+                resultado.innerHTML = "<br/>" + nome + " sua idade é " + idade + "<br/> Você está na fase Criança";
             } else if (idade >= 12 && idade <= 21) {
                 resultado = document.getElementById("resultado");
                 resultado.innerHTML = "<br/>" + nome + " sua idade é " + idade + "<br/> Você está na fase Adolescente";
