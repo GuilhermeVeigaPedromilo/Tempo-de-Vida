@@ -10,7 +10,9 @@ h1 {
 }
 
 label {
-    font-size: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-family: times;
 }
 
 input {
@@ -21,12 +23,30 @@ input {
     font-size: 20px;
     position: center;
     align-items: center;
+    text-align: center;
+}
+.frase {
+    display:flex;
+    margin-left: 350px;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    font-size: 25px;
+    font-family: Georgia;
+    background-color: rgba(248, 223, 194, 0.986);
+    border-radius: 10px;
 }
 .button {
     background-color: #5eff00;
+    margin-left: 400px;
+    text-align: center;
 }
 
-div {
+.value {
+    position: center;
+}
+
+.a {
     display: flex;
     justify-content: center;
 }
@@ -36,6 +56,13 @@ div {
     font-size: 25px;
     font-family: times;
 } 
+
 img {
     width: 1200px;
+}
+
+.block {
+    background-color: rgba(248, 223, 194, 0.986);
+    width: 35px;
+    height: 100%;
 }

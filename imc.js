@@ -16,7 +16,7 @@
 
             if (idade <= -0.1) {
                 resultado = document.getElementById("resultado");
-                resultado.innerHTML = "<br>" + nome + "<br/> Insira uma idade válida";
+                resultado.innerHTML = "<br>" + nome + "<br/> Você nasceu no futuro?";
             } else if (idade >= 1 && idade <= 12) {
                 resultado = document.getElementById("resultado");
                 resultado.innerHTML = "<br/>" + nome + " sua idade é " + idade + "<br/> Você está na fase Criança";
