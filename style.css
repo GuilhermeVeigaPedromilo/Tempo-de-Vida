@@ -1,8 +1,12 @@
 html {
     display: flex;
     justify-content: center;
+    border: 40px solid rgba(248, 223, 194, 0.986);
 }
-
+body {
+    border: 10px solid rgba(248, 223, 194, 0.986);
+    border-radius: 10px;
+}
 h1 {
     font-family: Georgia;
     font-size: 75px;
@@ -19,7 +23,7 @@ input {
     display: flex;
     background-color: rgb(197, 197, 197);
     height: 50px;
-    width: 400px;
+    width: 600px;
     font-size: 20px;
     position: center;
     align-items: center;
@@ -27,6 +31,7 @@ input {
 }
 .frase {
     display:flex;
+    justify-content: center;
     margin-left: 350px;
     text-align: center;
     width: 500px;
@@ -37,9 +42,11 @@ input {
     border-radius: 10px;
 }
 .button {
+    display: flex;
+    justify-content: center;
     background-color: #5eff00;
-    margin-left: 400px;
-    text-align: center;
+    margin-left: 300px;
+    margin-block: 10px;
 }
 
 .value {
