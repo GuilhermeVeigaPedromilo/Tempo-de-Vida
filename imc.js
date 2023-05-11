@@ -26,9 +26,12 @@
             } else if (idade >= 21 && idade <= 65) {
                 resultado = document.getElementById("resultado");
                 resultado.innerHTML = "<br/>" + nome + " sua idade é " + idade + "<br/> Você está na fase Adulto";
-            } else if (idade >= 65) {
+            } else if (idade >= 65 && idade <= 130) {
                 resultado = document.getElementById("resultado");
                 resultado.innerHTML = "<br/>" + nome + " sua idade é " + idade + "<br/> Você está na fase Idoso";
+			} else if (idade >= 130) {
+                resultado = document.getElementById("resultado");
+                resultado.innerHTML = "<br/>" + nome + " sua idade é " + idade + "<br/> Pode ir para um museu";
         }
            
     }
